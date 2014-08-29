@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* -------------------------------------------------
+author:   liaoyanhua
+email:    739319040@qq.com
+qq:       739319040
+----------------------------------------------------*/
+#aboutNav{
+	float:left;
+	width:250px;
+}
+#aboutNav ul{
+	width:190px;
+	float:left;
+	font-size:18px;
+	margin-left:60px;
+	list-style:none;
+	list-style-type:none;
+}#aboutNav ul li{
+		font-size:18px;
+		height:60px;
+		line-height:60px;
+		background:url(../images/aboutNavBg.jpg) repeat-x top left;
+}
+#aboutCont{
+	width:600px;
+	float:right;
+}
+.aboutWrap{
+	width:600px;
+	height:auto;
+	background:url(../images/aboutWrapBg.jpg) repeat-x bottom left;
+}
+.aboutContTitle{
+	margin-top:30px;
+	font-size:16px;
+	color:#F00;
+}
+.aboutDetail p{
+	margin-top:5px;
+    margin-left:15px;
+    margin-right:15px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	text-indent:2em;
+	line-height:20px;
+}
+.personImages{
+	width:125px;
+	float:left;
+	margin-top:10px;
+}
+.personIntro{
+	width:450px;
+	float:right;
+	margin-top:10px;
+}
+.personIntroTitle{
+	width:450px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	background-color:#626568;
+	color:#ffffff;
+}
+.personIntroCont{
+	width:450px;
+}
+.personIntroName{
+	padding-top:20px;
+	height:80px;
+	clear:both;
+	background: url(../images/aboutNavBg.jpg) repeat-x bottom left;
+}
+.personIntroDetail{
+	margin-top:20px;
+	clear:both;
+}

@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* -------------------------------------------------
+author:   liaoyanhua
+email:    739319040@qq.com
+qq:       739319040
+----------------------------------------------------*/
+#mainDisplay{
+	width:640px;
+	float:left;
+}
+#secondaryDisplay{
+	width:300px;
+	float:right;
+}
+#slideDisplay{
+	margin-top:20px;
+}
+#slideDisTitle{
+	height:15px;
+	font-size:14px;
+	width:100%;
+	clear:both;
+}
+#slide{
+	margin-top:10px;
+	width:640px;
+	height:210px;
+}
+#displayPic{
+	margin-top:20px;
+}
+#displayPicTitle{
+	height:20px;
+	line-height:19px;
+	font-size:14px;
+	clear:both;
+	background:url(../images/displayPicTitleBg.jpg) repeat-x bottom left;
+}
+#displayPic ul{
+	height:140px;
+	clear:both;
+	margin-top:10px;
+}
+#displayPic ul li{
+	height:140px;
+	width:150px;
+	list-style:none;
+	margin-left:5px;
+	float:left;
+}
+
+#displayNav{
+	margin-top:20px;
+	float:right;
+	width:300px;
+}
+#displayNav ul{
+	width:300px;
+	float:right;
+	list-style:none;
+	list-style-type:none;
+}
+#displayNav ul li{
+	height:40px;
+	font-size:12px;
+	text-indent:40px;
+	line-height:40px;
+	background:url(../images/displayNavBg.jpg) repeat-x bottom left;
+}
+#displayContact{
+	margin-top:20px;
+	height:250px;
+	width:300px;
+	border: 2px solid #D6D6D6;
+}
+#dispalyQQ{
+	margin-top:20px;
+}
+#displayTel{
+	width:250px;
+	margin:0 auto;
+	margin-top:20px;
+	padding-bottom:10px;
+	background:url(../images/displayTelBg.jpg) repeat-x bottom left;
+}
+#displayTel span{
+	font-size:16px;
+	font-weight:bold;
+	color:#F00;
+}
+#displayTel p{
+	text-indent:50px;
+	font-size:18px;
+	line-height:20px;
+}
+#QQNum{
+	float:right;
+	width:200px;
+	margin-top:25px;
+	height:56px;
+	font-size:16px;
+	
+}
+#QQNum p{
+	text-indent:20px;
+	font-size:18px;
+	line-height:20px;
+}
+
+
+
+/*slide*/
+
+ul{list-style:none;}
+.container {
+	width: 640px; 
+	height: 210px; 
+}
+.container IMG {
+	width: 640px; 
+	height: 210px
+}
+ul.num {
+	position: absolute; 
+	float:right;
+	height:15px; 
+	right:5px; 
+	bottom:6px;
+	font-family:Verdana;
+}
+ul.num li {
+	font-weight:bold; 
+	width: 15px; 
+	FLOAT: left; 
+	height: 15px; 
+	color: #86a2b8; 
+	font-size: 11px; 
+	cursor: pointer;
+}
+ul.num li.on {
+	color: #fff;
+}
+/*slide*/
+
+
+

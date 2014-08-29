@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* -------------------------------------------------
+author:   liaoyanhua
+email:    739319040@qq.com
+qq:       739319040
+----------------------------------------------------*/
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	font-size:12px;
+	font-family:"宋体";
+}
+a:link,a:visited{
+	text-decoration:none;
+	line-height:20px;
+}
+a:hover,a:active{
+	text-decoration:none;
+	line-height:20px;
+}
+
+/*头部*/
+.header{
+	height:89px;
+	width:100%;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #D70D19;
+}
+.head{
+	width:960px;
+	height:89px;
+	margin:0 auto;
+}
+#logo{
+	width:270px;
+	height:89px;
+	float:left;
+	background:url(../images/logo.jpg) no-repeat top left;
+}
+#nav{
+	width:680px;
+	height:89px;
+	float:left;
+}
+#nav ul{
+	width:100%;
+	height:50px;
+	float:left;
+	margin-top:30px;
+	font-size:14px;
+	text-align:center;
+	list-style:none;
+	list-style-type:none;
+}
+#nav ul li{
+	width:110px;
+	height:50px;
+	float:left;
+	font-size:14px;
+	line-height:50px;
+	background:url(../images/navBg.jpg) top right no-repeat;
+}
+#nav ul a{
+	display:block;
+	float:left;
+	width:110px;
+	height:50px;
+	line-height:50px;
+	display:block;
+	padding:0;
+	text-decoration:none;
+}
+#nav ul a:link{
+	color:#000000;
+	text-decoration:none;
+}
+#nav ul a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+#nav ul a:hover{
+	color:#d60c18;
+	text-decoration:none;
+}
+#submenu{
+	position:absolute;
+	top:80px;
+	_left:525px;
+	display:none;
+	background-color:#F00;  
+	float:none;
+	z-index:1000;
+}
+#submenu ul{
+	width:110px;
+	float:left;
+	margin-top:0px;
+	font-size:14px;
+	text-align:center;
+}
+#submenu ul li{
+	width:110px;
+	background-color:#FFF;
+	background-image:none;
+	height:30px;
+	font-size:14px;
+	line-height:30px;
+}
+#submenu ul a{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	padding:0;
+	text-decoration:none;
+}
+#submenu ul a:link{
+	color:#000000;
+	text-decoration:none;
+}
+#submenu ul a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+#submenu ul a:hover{
+	color:#ffffff;
+	background-color:#e27e86;
+	text-decoration:none;
+}
+
+
+
+
+/*内容*/
+#wrap{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+}
+#display{
+	height:370px;
+	width:960px;
+	margin-top:5px;
+}
+.content{
+	width:960px;
+	height:auto;
+	float:left;
+	margin-top:5px;
+}
+.mainContent{
+	width:700px;
+	float:left;
+}
+.cont{
+	width:346px;
+}
+/*底部*/
+.footer{
+	height:120px;
+	width:100%;
+	background-color:#626568;
+	margin-top:30px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #D70D19;
+}
+
+
+#footerInfo{
+	width:960px;
+	height:120px;
+	margin:0 auto;
+}
+#copyRight{
+	float:left;
+	width:350px;
+	height:120px;
+}
+#copyRight p{
+	color:#ffffff;
+	margin-top:15px;
+    margin-left:15px;
+    margin-right:15px;
+	text-indent:2em;
+	line-height:20px;
+}
+#Contact{
+	float:left;
+	width:300px;
+	height:120px;
+}
+#Contact p{
+	color:#ffffff;
+	margin-top:15px;
+    margin-left:15px;
+    margin-right:15px;
+	text-indent:2em;
+	line-height:10px;
+}
+#footerLink{
+	float:left;
+	margin-left:10px;
+	width:250px;
+	height:120px;
+}
+#footerLink p{
+	color:#ffffff;
+	margin-top:15px;
+    margin-left:15px;
+    margin-right:15px;
+	text-indent:2em;
+	line-height:10px;
+}
+#footLinkNav{
+	float: left; 
+	height:28px; 
+	margin-top:10px;
+	text-indent:27px;
+	line-height:20px;
+	color:#ffffff; 
+	clear:both;
+}
+#footLinkCont{
+	width:100%;
+	float: left;  
+	color:#ffffff; 
+	clear:both;
+
+}
+#footLinkCont ul{
+	margin-left:80px;
+	height:20px;
+	width:200px;
+}
+#footLinkCont ul li{
+	float:left;
+	width:100px;
+	height:20px;
+	color:#ffffff;
+	list-style:none;
+	text-decoration:none;
+}
+#footLinkCont a{
+	color:#ffffff;
+}
+/*contact*/
+#mapWrap{
+	width:810px;
+	height:340px;
+	margin-left:50px;
+}
+#mapTitle{
+	width:810px;
+	height:25px;
+	line-height:25px;
+}
+#map{
+}
+.contactContWrap{
+	width:810px;
+	margin-top:10px;
+	float:left;
+	margin-left:50px;
+}
+.contactMain{
+	width:260px;
+	float:left;
+}
+.contactTitle{
+	width:260px;
+	height:25px;
+	line-height:30px;
+	background:url(../images/contactTitleBg.jpg) repeat-x left top; 
+	color:#ffffff;
+	text-align:center
+}
+.contactCont{
+	width:260px;
+	padding-top:20px;
+}
+.contactCont p{
+	text-indent:2em;
+	line-height:20px;
+}
+.contactCont p span{
+	color:#F00;
+	text-indent:4em;
+}
+
